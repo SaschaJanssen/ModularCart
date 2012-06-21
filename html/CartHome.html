@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>CartHome</title>
+	</head>
+	<link rel="stylesheet" media="screen" href="../css/ShoppingCart.css">
+	<body>
+		<div id="main">
+			<div id="search-box">
+				<input type="text" name="q" id="search_input"/>
+				<button id="search_button">
+					Search
+				</button>
+				<button id="quit_search">
+					Reset
+				</button>
+			</div>
+
+			<div id="filters-bar">
+				<ul>
+					<li>
+						<a href="#red"></a>
+					</li>
+					<li>
+						<a href="#blue"></a>
+					</li>
+					<li>
+						<a href="#mobile"></a>
+					</li>
+					<li>
+						<a href="#accessory"></a>
+					</li>
+				</ul>
+			</div>
+
+			<div id="product-panel">
+				<ul>
+					<li id="1" data-8088-keyword="red">
+						<p>
+							First Item
+						</p>
+					</li>
+					<li id="2" data-8088-keyword="blue">
+						<p>
+							Second Item
+						</p>
+					</li>
+					<li id="3" data-8088-keyword="mobile">
+						<p>
+							Third Item
+						</p>
+					</li>
+					<li id="4" data-8088-keyword="accessory">
+						<p>
+							Fourth Item
+						</p>
+					</li>
+				</ul>
+			</div>
+
+			<div id="sopping-cart">
+				<ul></ul>
+			</div>
+		</div>
+
+		<script src="../js/cart.js"></script>
+	</body>
+</html>
